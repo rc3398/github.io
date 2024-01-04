@@ -32,4 +32,34 @@ To support this, all changes to the underlying code appear as a closed issue wit
 
 # rc3398 - My Notes
 
+Run the following CLI commands:
+```
+brew install rbenv ruby-build nodejs
+rbenv install --verbose 3.3.0
+rbenv local 3.3.0
+rbenv global 3.3.0
+rbenv install -l
+ruby -v
+
+gem install bundler
+bundle update
+rm Gemfile.lock
+bundle install
+bundle info csv
+bundle exec jekyll serve
+```
+
+## Troubleshooting
+Check that PATH contains $HOME/.rbenv/shims and $HOME/.rbenv/bin
+```
+$ env | grep PATH
+```
+
+Also check that you have the following in your ~/.bash_profile if using bash or ~/.zshenv if using zsh
+
+```
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+```
+
 See: https://archive.is/3TPas
