@@ -48,6 +48,7 @@ bundle install
 bundle info csv
 bundle exec jekyll serve
 ```
+Site: https://rc3398.github.io/
 
 ## Troubleshooting
 Check that PATH contains $HOME/.rbenv/shims and $HOME/.rbenv/bin
@@ -62,6 +63,19 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
 
-See: 
+See
 - https://archive.is/3TPas
+- https://github.com/collections/github-pages-examples
+
+Jekyll Minimal theme
 - https://github.com/tonydear/tonydear.github.io
+- https://stuartgeiger.com/
+- https://jekyllrb.com/docs/
+- https://mademistakes.com/work/jekyll-themes/minimal-mistakes/
+- https://github.com/mmistakes/minimal-mistakes
+- https://github.com/academicpages/academicpages.github.io
+
+Customize
+- https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+- https://github.com/pages-themes/minimal#customizing
+- https://pages.github.com/themes/
