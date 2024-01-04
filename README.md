@@ -62,4 +62,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
 
-See: https://archive.is/3TPas
+See: 
+- https://archive.is/3TPas
+- https://github.com/tonydear/tonydear.github.io
